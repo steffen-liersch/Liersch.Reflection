@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFrameworks>net45;net47;netcoreapp2.0;netcoreapp3.0;netcoreapp3.1</TargetFrameworks>
+    <LangVersion>6</LangVersion>
+    <AssemblyName>Liersch.Reflection.Demo</AssemblyName>
+    <RootNamespace>Liersch.Reflection.Demo</RootNamespace>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <IsPackable>false</IsPackable>
+    <CheckForOverflowUnderflow Condition="'$(Configuration)'=='Debug'">true</CheckForOverflowUnderflow>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Liersch.Reflection\Liersch.Reflection.csproj" />
+    <PackageReference Include="Liersch.Profiling" Version="1.0.0-beta-346109400" />
+  </ItemGroup>
+
+</Project>

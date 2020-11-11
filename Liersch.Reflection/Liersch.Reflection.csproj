@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net45;net47;netcoreapp2.0;netcoreapp2.1;netcoreapp2.2;netcoreapp3.0;netcoreapp3.1;netstandard2.1</TargetFrameworks>
+    <LangVersion>6</LangVersion>
+    <NoWarn>1591</NoWarn>
+    <NeutralLanguage>en</NeutralLanguage>
+    <RootNamespace>Liersch.Reflection</RootNamespace>
+    <AssemblyName>Liersch.Reflection</AssemblyName>
+    <AssemblyOriginatorKeyFile>Liersch.Reflection.snk</AssemblyOriginatorKeyFile>
+    <SignAssembly>true</SignAssembly>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+
+    <PackageId>Liersch.Reflection</PackageId>
+    <Authors>Steffen Liersch</Authors>
+    <Company>Steffen Liersch</Company>
+    <Copyright>© 2020 Steffen Liersch</Copyright>
+    <Product>Liersch.Reflection</Product>
+    <Description>.NET library for significantly increasing the performance of reflection-based operations</Description>
+    <VersionPrefix>1.0.0</VersionPrefix>
+    <VersionSuffix>beta</VersionSuffix>
+    <PackageTags>codegen code-generator dynamic-method reflection reflection-emit</PackageTags>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageIcon>Liersch-Logo-128px.png</PackageIcon>
+    <PackageIconUrl>https://www.steffen-liersch.de/files/images/Liersch-Logo-128px.png</PackageIconUrl>
+    <PackageProjectUrl>https://github.com/steffen-liersch/Liersch.Reflection</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/steffen-liersch/Liersch.Reflection</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+
+    <AssemblyTitle>$(Description)</AssemblyTitle>
+    <VersionSuffix Condition="'$(VersionSuffix)'!='' AND '$(GITHUB_RUN_ID)'!=''">$(VersionSuffix)-$(GITHUB_RUN_ID)</VersionSuffix>
+    <CheckForOverflowUnderflow Condition="'$(Configuration)'=='Debug'">true</CheckForOverflowUnderflow>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Pack="true" PackagePath="" Include="..\LICENSE.txt" Link="doc\LICENSE.txt" />
+    <None Pack="true" PackagePath="" Include="..\Liersch-Logo-128px.png" Link="doc\Liersch-Logo-128px.png" />
+    <None Pack="true" PackagePath="" Include="..\Liersch-Logo-Notice.txt" Link="doc\Liersch-Logo-Notice.txt" />
+    <None Pack="true" PackagePath="" Include="..\README.md" Link="doc\README.md" />
+  </ItemGroup>
+
+</Project>
