@@ -61,8 +61,8 @@ https://www.steffen-liersch.de/
 
 ## Links
 
-The source code is maintained on GitHub:
+The source code is maintained on GitHub:  
 https://github.com/steffen-liersch/Liersch.Reflection
 
-Packages can be downloaded through NuGet:
+Packages can be downloaded through NuGet:  
 https://www.nuget.org/packages/Liersch.Reflection
