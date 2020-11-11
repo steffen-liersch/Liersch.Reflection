@@ -56,7 +56,7 @@ The software is published under the conditions of an open source license. Altern
 
 ## Copyright
 
-Copyright © 2020 Steffen Liersch
+Copyright © 2020 Steffen Liersch  
 https://www.steffen-liersch.de/
 
 ## Links
