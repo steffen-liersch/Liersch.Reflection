@@ -30,7 +30,7 @@ The demo application uses [Liersch.Profiling](https://github.com/steffen-liersch
 
 `Liersch.Reflection` contains the `Accelerator` class for generating function pointers for the fast creation of types, the fast calling of functions and the fast reading and writing of properties and fields.
 
-Instead of creating objects with `Activator.CreateInstance`, the function pointer returned by `Accelerator.CreateStandardConstructor` must be used to create a new instances.
+Instead of creating objects with `Activator.CreateInstance`, the function pointer returned by `Accelerator.CreateStandardConstructor` must be used to create new instances.
 
 ```cs
 Func0 create=Accelerator.CreateStandardConstructor(type);
