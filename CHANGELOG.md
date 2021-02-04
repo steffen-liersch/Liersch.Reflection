@@ -11,3 +11,10 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 - ...
 ### Fixed
 - ...
+
+## [1.0.0] - 2021-02-04
+### Added
+- Build targets
+
+[Unreleased]: https://github.com/steffen-liersch/Liersch.Reflection/compare/v1.0.0...HEAD
+[1.0.0]:      https://github.com/steffen-liersch/Liersch.Reflection/tree/v1.0.0
