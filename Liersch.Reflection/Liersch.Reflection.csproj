@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net40;net45;net47;net48;netcoreapp2.0;netcoreapp2.1;netcoreapp2.2;netcoreapp3.0;netcoreapp3.1;netstandard2.1</TargetFrameworks>
+    <TargetFrameworks>net40;net45;net47;net48;netcoreapp2.0;netcoreapp2.1;netcoreapp2.2;netcoreapp3.0;netcoreapp3.1;net5.0;netstandard2.1</TargetFrameworks>
     <LangVersion>6</LangVersion>
     <NoWarn>1591</NoWarn>
     <NeutralLanguage>en</NeutralLanguage>
@@ -14,7 +14,7 @@
     <PackageId>Liersch.Reflection</PackageId>
     <Authors>Steffen Liersch</Authors>
     <Company>Steffen Liersch</Company>
-    <Copyright>© 2020 Steffen Liersch</Copyright>
+    <Copyright>© 2020-2021 Steffen Liersch</Copyright>
     <Product>Liersch.Reflection</Product>
     <Description>.NET library for significantly increasing the performance of reflection-based operations</Description>
     <VersionPrefix>1.0.0</VersionPrefix>
