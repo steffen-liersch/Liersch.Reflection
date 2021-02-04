@@ -6,7 +6,7 @@ With the Reflection API, .NET offers an easy way to access types and their eleme
 
 The late binding of types and elements at runtime causes lower performance. Operations that are normally performed by the compiler must be done at runtime when using the Reflection API.
 
-`Liersch.Reflection` significantly improves the performance of the Reflection API by generating dynamic IL code for constructor and function calls as well as for field access. The access speed is almost like direct access. All major .NET platforms are supported (from .NET Framework 2.0, from .NET Core 2.0 and from .NET Standard 2.1).
+`Liersch.Reflection` significantly improves the performance of the Reflection API by generating dynamic IL code for constructor and function calls as well as for field access. The access speed is almost like direct access. All major .NET platforms are supported (from .NET Framework 2.0, from .NET Core 2.0 and from .NET Standard 2.1). For older projects (before .NET Framework 4.0) the library has to be compiled and integrated manually.
 
 The quality of the library is ensured by automated module tests. There are module tests available for relevant functions. All major library changes are logged in the [CHANGELOG.md](https://github.com/steffen-liersch/Liersch.Reflection/blob/main/CHANGELOG.md) file.
 
@@ -56,7 +56,7 @@ The software is published under the conditions of an open source license. Altern
 
 ## Copyright
 
-Copyright © 2020 Steffen Liersch  
+Copyright © 2020-2021 Steffen Liersch  
 https://www.steffen-liersch.de/
 
 ## Links
