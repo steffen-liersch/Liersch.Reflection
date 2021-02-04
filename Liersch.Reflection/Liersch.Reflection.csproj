@@ -18,7 +18,7 @@
     <Product>Liersch.Reflection</Product>
     <Description>.NET library for significantly increasing the performance of reflection-based operations</Description>
     <VersionPrefix>1.0.0</VersionPrefix>
-    <VersionSuffix>beta</VersionSuffix>
+    <VersionSuffix></VersionSuffix>
     <PackageTags>codegen code-generator dynamic-method reflection reflection-emit</PackageTags>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
